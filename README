@@ -1,0 +1,7 @@
+index.php - PHP web page that calls display.cgi and modify.cgi to display the number of previous visitors and then add 1 to the number of visitors, respectively. In addition, prints the time and date that visitor acessed web page, and stores the time and date into a time log called timesheet.txt
+
+display.cgi - Python script that displays the number of visitors of a site, by pulling the number from a plain text file and then printing it
+
+modify.cgi - Python script that updates the count of visitors to a site, by pulling the count from a plain text file and  increasing it by 1 in the file
+
+
